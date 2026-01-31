@@ -7,6 +7,10 @@ export default {
         cobalt: "#2D5BFF",
         "neo-yellow": "#FDFF00",
         "neo-green": "#00FF66",
+        "neo-orange": "#FF6B35",
+        "neo-pink": "#FF006E",
+        "neo-purple": "#8338EC",
+        "neo-cyan": "#00F5FF",
       },
       fontFamily: {
         archivo: ["Archivo", "sans-serif"],

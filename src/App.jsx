@@ -34,10 +34,10 @@ function App() {
           </a>
         </nav>
         <div className="flex gap-4">
-          <button className="brutalist-button bg-neo-yellow text-black text-sm">
+          <button className="brutalist-button bg-pink-500 text-white text-sm">
             Book Demo
           </button>
-          <button className="hidden sm:block brutalist-button bg-white text-black text-sm">
+          <button className="hidden sm:block brutalist-button bg-cyan-400 text-black text-sm">
             Log In
           </button>
         </div>
@@ -68,16 +68,16 @@ function App() {
                 AI-powered insights. High energy, high clarity, high yield.
               </p>
               <div className="flex flex-wrap gap-6">
-                <button className="brutalist-button bg-white text-black text-xl px-10 py-5">
+                <button className="brutalist-button bg-orange-500 text-white text-xl px-10 py-5">
                   Start Now
                 </button>
-                <button className="brutalist-button bg-black text-white text-xl px-10 py-5">
+                <button className="brutalist-button bg-purple-600 text-white text-xl px-10 py-5">
                   Product Tour
                 </button>
               </div>
             </div>
             <div className="relative group mt-8 lg:mt-0">
-              <div className="brutalist-card bg-neo-green p-4 rotate-2 group-hover:rotate-0 transition-transform relative z-0">
+              <div className="brutalist-card bg-cyan-400 p-4 rotate-2 group-hover:rotate-0 transition-transform relative z-0">
                 <div className="bg-black p-1 border-2 border-black h-96">
                   <img
                     alt="Industrial Logic"
@@ -85,21 +85,21 @@ function App() {
                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjualXDkxTVJwBj9JBgiKEKqZCJxybzVoZg6bX9jMr1ox-wm4NCktG7oW6nsAIrI_t5GCMDd6gfhgi1j7gqez9BP9pc1y4NDd54oXo6P1CdZvS7SIWrWOhPB-e60ne8Mru4uayb0SQB7crzylZqTOOCFvqufXZFmewf_TMuDPQ7kJMP09TVkp80Q1uCSb7U0HiXEAT7sXZMUv-juItW3Ze6nHPlPBs2kyfuZQn6VADSRSXN0xrKgZ934wP9T9w7FsEZT5dSFOaJa0"
                   />
                 </div>
-                <div className="mt-4 flex justify-between items-center text-black">
+                <div className="mt-4 flex justify-end items-center text-black">
                   <span className="font-black text-xl uppercase">
                     Live Stream: Factory_01
                   </span>
-                  <span className="size-4 bg-red-600 rounded-full animate-pulse border-2 border-black"></span>
+                  <span className="size-4 ml-1 bg-red-600 rounded-full animate-pulse border-2 border-black"></span>
                 </div>
               </div>
-              <div className="absolute -bottom-6 -left-6 brutalist-card bg-white p-6 -rotate-3 max-w-60 z-20">
-                <span className="material-symbols-outlined text-4xl mb-2 text-black">
+              <div className="absolute text-black -bottom-6 -left-6 brutalist-card bg-orange-500 p-6 -rotate-3 max-w-60 z-20">
+                <span className="material-symbols-outlined text-4xl mb-2 ">
                   trending_up
                 </span>
-                <h4 className="text-xl leading-none mb-1 text-black font-black">
+                <h4 className="text-xl leading-none mb-1  font-black">
                   +40% Lead Time
                 </h4>
-                <p className="text-xs font-bold uppercase opacity-60 text-black">
+                <p className="text-xs font-bold uppercase opacity-90 ">
                   Optimization achieved
                 </p>
               </div>
@@ -109,49 +109,70 @@ function App() {
 
         {/* Marquee Section */}
         <section className="bg-white border-y-4 border-black py-8 overflow-hidden">
-          <div className="flex whitespace-nowrap gap-12 animate-marquee items-center">
-            <span className="font-black text-3xl uppercase flex items-center gap-4">
-              <span className="material-symbols-outlined text-4xl">
-                precision_manufacturing
-              </span>{" "}
-              GEARCORP
-            </span>
-            <span className="font-black text-3xl uppercase flex items-center gap-4">
-              <span className="material-symbols-outlined text-4xl">
-                factory
-              </span>{" "}
-              INDUS-X
-            </span>
-            <span className="font-black text-3xl uppercase flex items-center gap-4">
-              <span className="material-symbols-outlined text-4xl">
-                conveyor_belt
-              </span>{" "}
-              FLOWLINE
-            </span>
-            <span className="font-black text-3xl uppercase flex items-center gap-4">
-              <span className="material-symbols-outlined text-4xl">
-                warehouse
-              </span>{" "}
-              LOGISTRUCT
-            </span>
-            <span className="font-black text-3xl uppercase flex items-center gap-4">
-              <span className="material-symbols-outlined text-4xl">
-                robot_2
-              </span>{" "}
-              AUTO-FAB
-            </span>
-            <span className="font-black text-3xl uppercase flex items-center gap-4">
-              <span className="material-symbols-outlined text-4xl">
-                precision_manufacturing
-              </span>{" "}
-              GEARCORP
-            </span>
-            <span className="font-black text-3xl uppercase flex items-center gap-4">
-              <span className="material-symbols-outlined text-4xl">
-                factory
-              </span>{" "}
-              INDUS-X
-            </span>
+          <div className="flex items-center">
+            <div className="flex items-center gap-12 whitespace-nowrap animate-marquee">
+              <span className="font-black text-3xl uppercase flex items-center gap-4">
+                <span className="material-symbols-outlined text-4xl">
+                  precision_manufacturing
+                </span>{" "}
+                GEARCORP
+              </span>
+              <span className="font-black text-3xl uppercase flex items-center gap-4">
+                <span className="material-symbols-outlined text-4xl">
+                  factory
+                </span>{" "}
+                INDUS-X
+              </span>
+              <span className="font-black text-3xl uppercase flex items-center gap-4">
+                <span className="material-symbols-outlined text-4xl">
+                  conveyor_belt
+                </span>{" "}
+                FLOWLINE
+              </span>
+              <span className="font-black text-3xl uppercase flex items-center gap-4">
+                <span className="material-symbols-outlined text-4xl">
+                  warehouse
+                </span>{" "}
+                LOGISTRUCT
+              </span>
+              <span className="font-black text-3xl uppercase flex items-center gap-4">
+                <span className="material-symbols-outlined text-4xl">
+                  robot_2
+                </span>{" "}
+                AUTO-FAB
+              </span>
+              {/* Duplicate for seamless loop */}
+              <span className="font-black text-3xl uppercase flex items-center gap-4">
+                <span className="material-symbols-outlined text-4xl">
+                  precision_manufacturing
+                </span>{" "}
+                GEARCORP
+              </span>
+              <span className="font-black text-3xl uppercase flex items-center gap-4">
+                <span className="material-symbols-outlined text-4xl">
+                  factory
+                </span>{" "}
+                INDUS-X
+              </span>
+              <span className="font-black text-3xl uppercase flex items-center gap-4">
+                <span className="material-symbols-outlined text-4xl">
+                  conveyor_belt
+                </span>{" "}
+                FLOWLINE
+              </span>
+              <span className="font-black text-3xl uppercase flex items-center gap-4">
+                <span className="material-symbols-outlined text-4xl">
+                  warehouse
+                </span>{" "}
+                LOGISTRUCT
+              </span>
+              <span className="font-black text-3xl uppercase flex items-center gap-4">
+                <span className="material-symbols-outlined text-4xl">
+                  robot_2
+                </span>{" "}
+                AUTO-FAB
+              </span>
+            </div>
           </div>
         </section>
 
@@ -167,12 +188,12 @@ function App() {
             <div className="flex flex-col md:flex-row items-center justify-between gap-12 relative">
               <div className="hidden md:block absolute top-1/2 left-0 w-full h-2 bg-black -translate-y-1/2"></div>
 
-              <div className="brutalist-card p-8 w-full md:w-1/4 relative z-10 text-center bg-neo-yellow">
-                <div className="bg-black text-white size-12 flex items-center justify-center mx-auto mb-4 border-2 border-black">
+              <div className="brutalist-card p-8 w-full md:w-1/4 relative z-10 text-center bg-purple-600">
+                <div className="bg-orange-500 text-black size-12 flex items-center justify-center mx-auto mb-4 border-2 border-black">
                   <span className="font-black text-2xl">01</span>
                 </div>
-                <h3 className="text-2xl mb-4">Connect</h3>
-                <p className="font-bold text-sm leading-tight">
+                <h3 className="text-2xl mb-4 ">Connect</h3>
+                <p className="font-bold text-sm leading-tight ">
                   Integrate ERP and supplier databases in minutes.
                 </p>
               </div>
@@ -183,7 +204,7 @@ function App() {
                 </span>
               </div>
 
-              <div className="hidden md:flex absolute left-[25%] top-1/2 -translate-y-1/2 z-20">
+              <div className="hidden md:flex absolute left-[29%] top-1/2 -translate-y-1/2 z-20">
                 <div className="bg-black text-white p-2 border-2 border-white">
                   <span className="material-symbols-outlined text-3xl">
                     arrow_forward
@@ -191,8 +212,8 @@ function App() {
                 </div>
               </div>
 
-              <div className="brutalist-card p-8 w-full md:w-1/4 relative z-10 text-center bg-white">
-                <div className="bg-black text-white size-12 flex items-center justify-center mx-auto mb-4 border-2 border-black">
+              <div className="brutalist-card p-8 w-full md:w-1/4 relative z-10 text-center bg-cyan-400">
+                <div className="bg-pink-500 text-white size-12 flex items-center justify-center mx-auto mb-4 border-2 border-black">
                   <span className="font-black text-2xl">02</span>
                 </div>
                 <h3 className="text-2xl mb-4">Analyze</h3>
@@ -207,7 +228,7 @@ function App() {
                 </span>
               </div>
 
-              <div className="hidden md:flex absolute left-[65%] top-1/2 -translate-y-1/2 z-20">
+              <div className="hidden md:flex absolute left-[67%] top-1/2 -translate-y-1/2 z-20">
                 <div className="bg-black text-white p-2 border-2 border-white">
                   <span className="material-symbols-outlined text-3xl">
                     arrow_forward
@@ -215,12 +236,12 @@ function App() {
                 </div>
               </div>
 
-              <div className="brutalist-card p-8 w-full md:w-1/4 relative z-10 text-center bg-neo-green">
-                <div className="bg-black text-white size-12 flex items-center justify-center mx-auto mb-4 border-2 border-black">
+              <div className="brutalist-card p-8 w-full md:w-1/4 relative z-10 text-center bg-orange-500">
+                <div className="bg-purple-600  size-12 flex items-center justify-center mx-auto mb-4 border-2 border-black">
                   <span className="font-black text-2xl">03</span>
                 </div>
-                <h3 className="text-2xl mb-4">Automate</h3>
-                <p className="font-bold text-sm leading-tight">
+                <h3 className="text-2xl mb-4 ">Automate</h3>
+                <p className="font-bold text-sm leading-tight ">
                   Execute orders and RFQs with precision.
                 </p>
               </div>
@@ -235,14 +256,14 @@ function App() {
               <h2 className="text-5xl md:text-6xl max-w-2xl">
                 Heavyweight Features
               </h2>
-              <button className="brutalist-button bg-black text-white">
+              <button className="brutalist-button bg-purple-600 text-white">
                 Full Spec Sheet
               </button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               {/* Feature 1 */}
-              <div className="brutalist-card p-8 flex flex-col h-full">
-                <div className="bg-cobalt text-white w-fit p-3 border-4 border-black mb-6">
+              <div className="brutalist-card p-8 flex flex-col h-full bg-pink-50">
+                <div className="bg-pink-500 text-white w-fit p-3 border-4 border-black mb-6">
                   <span className="material-symbols-outlined text-4xl">
                     monitoring
                   </span>
@@ -253,17 +274,17 @@ function App() {
                   machine speed.
                 </p>
                 <div className="border-4 border-black bg-white h-40 flex items-end p-2 gap-1 overflow-hidden">
-                  <div className="bg-black w-1/4 h-1/2"></div>
-                  <div className="bg-cobalt w-1/4 h-3/4"></div>
-                  <div className="bg-black w-1/4 h-1/3"></div>
-                  <div className="bg-neo-green w-1/4 h-full"></div>
-                  <div className="bg-black w-1/4 h-2/3"></div>
+                  <div className="bg-purple-600 w-1/4 h-1/2"></div>
+                  <div className="bg-cyan-400 w-1/4 h-3/4"></div>
+                  <div className="bg-orange-500 w-1/4 h-1/3"></div>
+                  <div className="bg-pink-500 w-1/4 h-full"></div>
+                  <div className="bg-yellow-400 w-1/4 h-2/3"></div>
                 </div>
               </div>
 
               {/* Feature 2 */}
-              <div className="brutalist-card p-8 flex flex-col h-full bg-white">
-                <div className="bg-red-500 text-white w-fit p-3 border-4 border-black mb-6">
+              <div className="brutalist-card p-8 flex flex-col h-full bg-cyan-50">
+                <div className="bg-cyan-500 text-white w-fit p-3 border-4 border-black mb-6">
                   <span className="material-symbols-outlined text-4xl">
                     report_problem
                   </span>
@@ -272,25 +293,25 @@ function App() {
                 <p className="font-bold mb-8 flex-1">
                   Proprietary AI audits purchase orders. No flaws. No excuses.
                 </p>
-                <div className="border-4 border-black p-4 bg-neo-yellow/20">
+                <div className="border-4 border-black p-4 bg-purple-100">
                   <div className="flex items-center gap-2 mb-2">
-                    <div className="size-6 border-4 border-black bg-neo-green"></div>
+                    <div className="size-6 border-4 border-black bg-green-500"></div>
                     <div className="h-4 bg-black w-full"></div>
                   </div>
                   <div className="flex items-center gap-2 mb-2">
-                    <div className="size-6 border-4 border-black bg-neo-green"></div>
+                    <div className="size-6 border-4 border-black bg-green-500"></div>
                     <div className="h-4 bg-black w-2/3"></div>
                   </div>
                   <div className="flex items-center gap-2">
-                    <div className="size-6 border-4 border-black bg-red-500"></div>
+                    <div className="size-6 border-4 border-black bg-pink-500"></div>
                     <div className="h-4 bg-black w-3/4"></div>
                   </div>
                 </div>
               </div>
 
               {/* Feature 3 */}
-              <div className="brutalist-card p-8 flex flex-col h-full bg-neo-yellow">
-                <div className="bg-black text-white w-fit p-3 border-4 border-black mb-6">
+              <div className="brutalist-card p-8 flex flex-col h-full bg-green-400">
+                <div className="bg-orange-500 text-white w-fit p-3 border-4 border-black mb-6">
                   <span className="material-symbols-outlined text-4xl">
                     dynamic_form
                   </span>
@@ -300,16 +321,16 @@ function App() {
                   Routing RFQs to best-fit suppliers based on lead-time logic.
                 </p>
                 <div className="grid grid-cols-2 gap-2">
-                  <div className="h-16 border-4 border-black bg-white flex items-center justify-center font-black">
+                  <div className="h-16 border-4 border-black bg-yellow-400 flex items-center justify-center font-black">
                     RFQ_A
                   </div>
-                  <div className="h-16 border-4 border-black bg-cobalt text-white flex items-center justify-center font-black">
+                  <div className="h-16 border-4 border-black bg-purple-600 text-white flex items-center justify-center font-black">
                     SUPPLIER_X
                   </div>
-                  <div className="h-16 border-4 border-black bg-black text-white flex items-center justify-center font-black">
+                  <div className="h-16 border-4 border-black bg-pink-500 text-white flex items-center justify-center font-black">
                     AUTO
                   </div>
-                  <div className="h-16 border-4 border-black bg-white flex items-center justify-center font-black">
+                  <div className="h-16 border-4 border-black bg-cyan-400 flex items-center justify-center font-black">
                     MATCHED
                   </div>
                 </div>
@@ -320,7 +341,7 @@ function App() {
 
         {/* CTA Section */}
         <section className="py-24 px-6 md:px-10">
-          <div className="max-w-4xl mx-auto brutalist-card bg-black text-white p-12 md:p-20 text-center relative overflow-hidden">
+          <div className="max-w-4xl mx-auto brutalist-card bg-gradient-to-br from-purple-600 via-pink-500 to-orange-500 text-white p-12 md:p-20 text-center relative overflow-hidden">
             <div className="absolute -top-10 -right-10 opacity-20 rotate-12">
               <span className="material-symbols-outlined text-[200px]">
                 rocket_launch
@@ -334,10 +355,10 @@ function App() {
               results.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center relative z-10">
-              <button className="brutalist-button bg-neo-yellow text-black text-2xl px-12 py-6">
+              <button className="brutalist-button bg-cyan-400 text-black text-2xl px-12 py-6">
                 Book Session
               </button>
-              <button className="brutalist-button bg-white text-black text-2xl px-12 py-6">
+              <button className="brutalist-button bg-yellow-400 text-black text-2xl px-12 py-6">
                 Free Trial
               </button>
             </div>
@@ -364,13 +385,13 @@ function App() {
               procurement.
             </p>
             <div className="flex gap-4">
-              <div className="size-12 border-4 border-black flex items-center justify-center hover:bg-black hover:text-white transition-colors cursor-pointer">
+              <div className="size-12 border-4 border-black bg-pink-500 text-white flex items-center justify-center hover:bg-purple-600 transition-colors cursor-pointer">
                 <span className="material-symbols-outlined">public</span>
               </div>
-              <div className="size-12 border-4 border-black flex items-center justify-center hover:bg-black hover:text-white transition-colors cursor-pointer">
+              <div className="size-12 border-4 border-black bg-cyan-400 text-white flex items-center justify-center hover:bg-orange-500 transition-colors cursor-pointer">
                 <span className="material-symbols-outlined">group</span>
               </div>
-              <div className="size-12 border-4 border-black flex items-center justify-center hover:bg-black hover:text-white transition-colors cursor-pointer">
+              <div className="size-12 border-4 border-black bg-orange-500 text-white flex items-center justify-center hover:bg-pink-500 transition-colors cursor-pointer">
                 <span className="material-symbols-outlined">share</span>
               </div>
             </div>
@@ -381,22 +402,28 @@ function App() {
             </h4>
             <ul className="space-y-4 text-lg font-bold uppercase">
               <li>
-                <a className="hover:bg-neo-yellow" href="#">
+                <a className="hover:bg-pink-500 hover:text-white px-2" href="#">
                   Features
                 </a>
               </li>
               <li>
-                <a className="hover:bg-neo-yellow" href="#">
+                <a className="hover:bg-cyan-400 hover:text-white px-2" href="#">
                   Security
                 </a>
               </li>
               <li>
-                <a className="hover:bg-neo-yellow" href="#">
+                <a
+                  className="hover:bg-orange-500 hover:text-white px-2"
+                  href="#"
+                >
                   Nodes
                 </a>
               </li>
               <li>
-                <a className="hover:bg-neo-yellow" href="#">
+                <a
+                  className="hover:bg-purple-600 hover:text-white px-2"
+                  href="#"
+                >
                   API
                 </a>
               </li>
@@ -408,22 +435,31 @@ function App() {
             </h4>
             <ul className="space-y-4 text-lg font-bold uppercase">
               <li>
-                <a className="hover:bg-neo-yellow" href="#">
+                <a
+                  className="hover:bg-green-400 hover:text-white px-2"
+                  href="#"
+                >
                   Company
                 </a>
               </li>
               <li>
-                <a className="hover:bg-neo-yellow" href="#">
+                <a
+                  className="hover:bg-purple-600 hover:text-white px-2"
+                  href="#"
+                >
                   Manifesto
                 </a>
               </li>
               <li>
-                <a className="hover:bg-neo-yellow" href="#">
+                <a className="hover:bg-cyan-400 hover:text-white px-2" href="#">
                   Contact
                 </a>
               </li>
               <li>
-                <a className="hover:bg-neo-yellow" href="#">
+                <a
+                  className="hover:bg-orange-500 hover:text-white px-2"
+                  href="#"
+                >
                   Terms
                 </a>
               </li>
