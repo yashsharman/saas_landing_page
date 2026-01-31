@@ -1,3 +1,5 @@
+import industrialFactory from "./assets/images/founder/industrial-factory.jpg";
+
 function App() {
   return (
     <div className="relative flex flex-col w-full">
@@ -82,7 +84,7 @@ function App() {
                   <img
                     alt="Industrial Logic"
                     className="w-full h-full grayscale contrast-125 brightness-75 object-cover"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjualXDkxTVJwBj9JBgiKEKqZCJxybzVoZg6bX9jMr1ox-wm4NCktG7oW6nsAIrI_t5GCMDd6gfhgi1j7gqez9BP9pc1y4NDd54oXo6P1CdZvS7SIWrWOhPB-e60ne8Mru4uayb0SQB7crzylZqTOOCFvqufXZFmewf_TMuDPQ7kJMP09TVkp80Q1uCSb7U0HiXEAT7sXZMUv-juItW3Ze6nHPlPBs2kyfuZQn6VADSRSXN0xrKgZ934wP9T9w7FsEZT5dSFOaJa0"
+                    src={industrialFactory}
                   />
                 </div>
                 <div className="mt-4 flex justify-end items-center text-black">
