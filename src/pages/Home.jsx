@@ -1,0 +1,329 @@
+import industrialFactory from "../assets/images/founder/industrial-factory.jpg";
+
+function Home() {
+  return (
+    <>
+      {/* Hero Section */}
+      <section className="relative py-20 px-6 md:px-10 flex justify-center overflow-hidden">
+        <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div className="flex flex-col gap-8 relative z-10">
+            <div className="bg-white text-black inline-block px-4 py-2 w-fit brutalist-card translate-x-0 translate-y-0 shadow-none border-2 border-black">
+              <span className="font-black text-sm uppercase tracking-widest">
+                v3.0 Neo-Brutalist Logic
+              </span>
+            </div>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl text-white leading-[0.9] drop-shadow-[4px_4px_0px_rgba(0,0,0,1)]">
+              Smarter
+              <br />
+              Procurement.
+              <br />
+              Zero
+              <br />
+              Guesswork.
+            </h1>
+            <p className="text-lg md:text-xl font-bold text-white max-w-lg leading-tight bg-black/10 p-4 border-l-8 border-black">
+              Revolutionize your manufacturing supply chain with raw AI-powered
+              insights. High energy, high clarity, high yield.
+            </p>
+            <div className="flex flex-wrap gap-6">
+              <button className="brutalist-button bg-orange-500 text-white text-xl px-10 py-5">
+                Start Now
+              </button>
+              <button className="brutalist-button bg-purple-600 text-white text-xl px-10 py-5">
+                Product Tour
+              </button>
+            </div>
+          </div>
+          <div className="relative group mt-8 lg:mt-0">
+            <div className="brutalist-card bg-cyan-400 p-4 rotate-2 group-hover:rotate-0 transition-transform relative z-0">
+              <div className="bg-black p-1 border-2 border-black h-96">
+                <img
+                  alt="Industrial Logic"
+                  className="w-full h-full grayscale contrast-125 brightness-75 object-cover"
+                  src={industrialFactory}
+                />
+              </div>
+              <div className="mt-4 flex justify-end items-center text-black">
+                <span className="font-black text-xl uppercase">
+                  Live Stream: Factory_01
+                </span>
+                <span className="size-4 ml-1 bg-red-600 rounded-full animate-pulse border-2 border-black"></span>
+              </div>
+            </div>
+            <div className="absolute text-black -bottom-6 -left-6 brutalist-card bg-orange-500 p-6 -rotate-3 max-w-60 z-20">
+              <span className="material-symbols-outlined text-4xl mb-2 ">
+                trending_up
+              </span>
+              <h4 className="text-xl leading-none mb-1  font-black">
+                +40% Lead Time
+              </h4>
+              <p className="text-xs font-bold uppercase opacity-90 ">
+                Optimization achieved
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Marquee Section */}
+      <section className="bg-white border-y-4 border-black py-8 overflow-hidden">
+        <div className="flex items-center">
+          <div className="flex items-center gap-12 whitespace-nowrap animate-marquee">
+            <span className="font-black text-3xl uppercase flex items-center gap-4">
+              <span className="material-symbols-outlined text-4xl">
+                precision_manufacturing
+              </span>{" "}
+              GEARCORP
+            </span>
+            <span className="font-black text-3xl uppercase flex items-center gap-4">
+              <span className="material-symbols-outlined text-4xl">
+                factory
+              </span>{" "}
+              INDUS-X
+            </span>
+            <span className="font-black text-3xl uppercase flex items-center gap-4">
+              <span className="material-symbols-outlined text-4xl">
+                conveyor_belt
+              </span>{" "}
+              FLOWLINE
+            </span>
+            <span className="font-black text-3xl uppercase flex items-center gap-4">
+              <span className="material-symbols-outlined text-4xl">
+                warehouse
+              </span>{" "}
+              LOGISTRUCT
+            </span>
+            <span className="font-black text-3xl uppercase flex items-center gap-4">
+              <span className="material-symbols-outlined text-4xl">
+                robot_2
+              </span>{" "}
+              AUTO-FAB
+            </span>
+            {/* Duplicate for seamless loop */}
+            <span className="font-black text-3xl uppercase flex items-center gap-4">
+              <span className="material-symbols-outlined text-4xl">
+                precision_manufacturing
+              </span>{" "}
+              GEARCORP
+            </span>
+            <span className="font-black text-3xl uppercase flex items-center gap-4">
+              <span className="material-symbols-outlined text-4xl">
+                factory
+              </span>{" "}
+              INDUS-X
+            </span>
+            <span className="font-black text-3xl uppercase flex items-center gap-4">
+              <span className="material-symbols-outlined text-4xl">
+                conveyor_belt
+              </span>{" "}
+              FLOWLINE
+            </span>
+            <span className="font-black text-3xl uppercase flex items-center gap-4">
+              <span className="material-symbols-outlined text-4xl">
+                warehouse
+              </span>{" "}
+              LOGISTRUCT
+            </span>
+            <span className="font-black text-3xl uppercase flex items-center gap-4">
+              <span className="material-symbols-outlined text-4xl">
+                robot_2
+              </span>{" "}
+              AUTO-FAB
+            </span>
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works Section */}
+      <section className="py-24 px-6 md:px-10 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-20">
+            <h2 className="text-5xl md:text-7xl mb-4">How it works</h2>
+            <p className="text-2xl font-bold uppercase tracking-widest">
+              The logic of efficiency
+            </p>
+          </div>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-12 relative">
+            <div className="hidden md:block absolute top-1/2 left-0 w-full h-2 bg-black -translate-y-1/2"></div>
+
+            <div className="brutalist-card p-8 w-full md:w-1/4 relative z-10 text-center bg-purple-600">
+              <div className="bg-orange-500 text-black size-12 flex items-center justify-center mx-auto mb-4 border-2 border-black">
+                <span className="font-black text-2xl">01</span>
+              </div>
+              <h3 className="text-2xl mb-4 ">Connect</h3>
+              <p className="font-bold text-sm leading-tight ">
+                Integrate ERP and supplier databases in minutes.
+              </p>
+            </div>
+
+            <div className="md:hidden">
+              <span className="material-symbols-outlined text-6xl rotate-90">
+                arrow_forward
+              </span>
+            </div>
+
+            <div className="hidden md:flex absolute left-[29%] top-1/2 -translate-y-1/2 z-20">
+              <div className="bg-black text-white p-2 border-2 border-white">
+                <span className="material-symbols-outlined text-3xl">
+                  arrow_forward
+                </span>
+              </div>
+            </div>
+
+            <div className="brutalist-card p-8 w-full md:w-1/4 relative z-10 text-center bg-cyan-400">
+              <div className="bg-pink-500 text-white size-12 flex items-center justify-center mx-auto mb-4 border-2 border-black">
+                <span className="font-black text-2xl">02</span>
+              </div>
+              <h3 className="text-2xl mb-4">Analyze</h3>
+              <p className="font-bold text-sm leading-tight">
+                AI identifies bottlenecks and risk patterns.
+              </p>
+            </div>
+
+            <div className="md:hidden">
+              <span className="material-symbols-outlined text-6xl rotate-90">
+                arrow_forward
+              </span>
+            </div>
+
+            <div className="hidden md:flex absolute left-[67%] top-1/2 -translate-y-1/2 z-20">
+              <div className="bg-black text-white p-2 border-2 border-white">
+                <span className="material-symbols-outlined text-3xl">
+                  arrow_forward
+                </span>
+              </div>
+            </div>
+
+            <div className="brutalist-card p-8 w-full md:w-1/4 relative z-10 text-center bg-orange-500">
+              <div className="bg-purple-600  size-12 flex items-center justify-center mx-auto mb-4 border-2 border-black">
+                <span className="font-black text-2xl">03</span>
+              </div>
+              <h3 className="text-2xl mb-4 ">Automate</h3>
+              <p className="font-bold text-sm leading-tight ">
+                Execute orders and RFQs with precision.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-24 px-6 md:px-10 bg-[#f0f0f0] border-t-4 border-black">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row items-baseline justify-between mb-16 gap-4">
+            <h2 className="text-5xl md:text-6xl max-w-2xl">
+              Heavyweight Features
+            </h2>
+            <button className="brutalist-button bg-purple-600 text-white">
+              Full Spec Sheet
+            </button>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            {/* Feature 1 */}
+            <div className="brutalist-card p-8 flex flex-col h-full bg-pink-50">
+              <div className="bg-pink-500 text-white w-fit p-3 border-4 border-black mb-6">
+                <span className="material-symbols-outlined text-4xl">
+                  monitoring
+                </span>
+              </div>
+              <h3 className="text-3xl mb-4">Real-time Data Insights</h3>
+              <p className="font-bold mb-8 flex-1">
+                Global material prices and supplier metrics tracking at raw
+                machine speed.
+              </p>
+              <div className="border-4 border-black bg-white h-40 flex items-end p-2 gap-1 overflow-hidden">
+                <div className="bg-purple-600 w-1/4 h-1/2"></div>
+                <div className="bg-cyan-400 w-1/4 h-3/4"></div>
+                <div className="bg-orange-500 w-1/4 h-1/3"></div>
+                <div className="bg-pink-500 w-1/4 h-full"></div>
+                <div className="bg-yellow-400 w-1/4 h-2/3"></div>
+              </div>
+            </div>
+
+            {/* Feature 2 */}
+            <div className="brutalist-card p-8 flex flex-col h-full bg-cyan-50">
+              <div className="bg-cyan-500 text-white w-fit p-3 border-4 border-black mb-6">
+                <span className="material-symbols-outlined text-4xl">
+                  report_problem
+                </span>
+              </div>
+              <h3 className="text-3xl mb-4">Error Prevention</h3>
+              <p className="font-bold mb-8 flex-1">
+                Proprietary AI audits purchase orders. No flaws. No excuses.
+              </p>
+              <div className="border-4 border-black p-4 bg-purple-100">
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="size-6 border-4 border-black bg-green-500"></div>
+                  <div className="h-4 bg-black w-full"></div>
+                </div>
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="size-6 border-4 border-black bg-green-500"></div>
+                  <div className="h-4 bg-black w-2/3"></div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="size-6 border-4 border-black bg-pink-500"></div>
+                  <div className="h-4 bg-black w-3/4"></div>
+                </div>
+              </div>
+            </div>
+
+            {/* Feature 3 */}
+            <div className="brutalist-card p-8 flex flex-col h-full bg-green-400">
+              <div className="bg-orange-500 text-white w-fit p-3 border-4 border-black mb-6">
+                <span className="material-symbols-outlined text-4xl">
+                  dynamic_form
+                </span>
+              </div>
+              <h3 className="text-3xl mb-4 uppercase">RFQ ENGINE 2.0</h3>
+              <p className="font-bold mb-8 flex-1">
+                Routing RFQs to best-fit suppliers based on lead-time logic.
+              </p>
+              <div className="grid grid-cols-2 gap-2">
+                <div className="h-16 border-4 border-black bg-yellow-400 flex items-center justify-center font-black">
+                  RFQ_A
+                </div>
+                <div className="h-16 border-4 border-black bg-purple-600 text-white flex items-center justify-center font-black">
+                  SUPPLIER_X
+                </div>
+                <div className="h-16 border-4 border-black bg-pink-500 text-white flex items-center justify-center font-black">
+                  AUTO
+                </div>
+                <div className="h-16 border-4 border-black bg-cyan-400 flex items-center justify-center font-black">
+                  MATCHED
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-24 px-6 md:px-10">
+        <div className="max-w-4xl mx-auto brutalist-card bg-linear-to-br from-purple-600 via-pink-500 to-orange-500 text-white p-12 md:p-20 text-center relative overflow-hidden">
+          <div className="absolute -top-10 -right-10 opacity-20 rotate-12">
+            <span className="material-symbols-outlined text-[200px]">
+              rocket_launch
+            </span>
+          </div>
+          <h2 className="text-5xl md:text-7xl mb-8 relative z-10 leading-none">
+            Ready for the transformation?
+          </h2>
+          <p className="text-xl md:text-2xl font-bold mb-12 max-w-2xl mx-auto relative z-10 uppercase tracking-tight">
+            Join 200+ manufacturers who cut overhead by 30%. No fluff. Just
+            results.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-6 justify-center relative z-10">
+            <button className="brutalist-button bg-cyan-400 text-black text-2xl px-12 py-6">
+              Book Session
+            </button>
+            <button className="brutalist-button bg-yellow-400 text-black text-2xl px-12 py-6">
+              Free Trial
+            </button>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
+export default Home;
